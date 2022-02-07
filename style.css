@@ -7,7 +7,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     display: flex;
     flex-direction: column;
@@ -986,10 +988,7 @@ row-gap: 10px;
 
 
 @media only screen and (max-width: 1200px) {
-    body {
-      background-color: lightblue;
-    }
-
+   
 main{
     display: flex;
 flex-direction: column;
